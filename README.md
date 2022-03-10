@@ -70,7 +70,7 @@ Remind students of their pass times and empty spots of desired classes and provi
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="wireframe.url" width=600>
+<img src="wireframes.url" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
