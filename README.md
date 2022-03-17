@@ -77,10 +77,24 @@ Remind students of their pass times and empty spots of desired classes and provi
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+#### Student
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | studentId      | int   | unique id for the student |
+   | name        | String | full name of the student |
+   | courses         | pointers     | courses in track |
+   
+#### Course
+
+    | Property    | Type   | Description | 
+    | ----------- | ------ | ----------- | 
+    | courseId    | int    | unique id for the course |
+    | name        | String | name of the course |
+    | instructor  | String | instructor of the course |
+    | rate | float | rate of the course |
+    | description | text | official description of the course |
+    | comments | pointers | comments from previous iteration of the course |
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
