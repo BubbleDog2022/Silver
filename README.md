@@ -89,12 +89,13 @@ Remind students of their pass times and empty spots of desired classes and provi
    
 #### Course
 
-    | Property    | Type   | Description | 
-    | ----------- | ------ | ----------- | 
-    | courseId    | int    | unique id for the course |
-    | name        | String | name of the course |
-    | instructor  | String | instructor of the course |
-    | rate | float | rate of the course |
-    | description | text | official description of the course |
-    | comments | pointers | comments from previous iteration of the course |
+    | Property    | Type     | Description  | 
+    | ----------- | -------- | ----------- | 
+    | courseId    | int      | unique id for the course |
+    | name        | String   | name of the course |
+    | instructor  | String   | instructor of the course |
+    | rate        | float    | rate of the course |
+    | description | text     | official description of the course |
+    | comments    | pointers | comments from previous iteration of the course |
+    
 ### Networking
