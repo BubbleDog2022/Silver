@@ -1,26 +1,26 @@
 Original App Design Project - README Template
 ===
 
-# GoldHelper
+# Silver
 
 ## Table of Contents
 1. [Overview](#Overview)
-1. [Product Spec](#Product-Spec)
-1. [Wireframes](#Wireframes)
-2. [Schema](#Schema)
+2. [Product Spec](#Product-Spec)
+3. [Wireframes](#Wireframes)
+4. [Schema](#Schema)
 
 ## Overview
 ### Description
-Remind students of their pass times and empty spots of desired classes and provide them with the past feedbacks about a class. Could be used for course rushing or decision making during pass times.
+This app is a mobile version of GOLD (Gaucho On-Line Data) on iOS platforms. It allows students to access many services provided by GOLD without using the browser which usually induces poor user experiences on mobile devices. 
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category:** Education
-- **Mobile:** This app is developed for mobile only
-- **Story:** Help students to rush into demnanded classes. Students can see the past feedbacks of a class before making decisions. 
-- **Market:** Any UCSB undergraduate could use this app.
-- **Habit:** This app could be used as the user's pass time is approaching
-- **Scope:** This app is primarily based on gold. It has the potential to combine some of the functions of Gauchospace and other ucsb websites, and thus has a wider scope. 
+- **Mobile:** This app would be developed for iOS only. 
+- **Story:** Using the iphone browser to perform some simple tasks on GOLD such as checking the passtime is inconvinient and unnecessarily complicated sometimes. Moreover, the GOLD UI is not friendly to mobile users. Thus, we decided to build this app as one more layer above GOLD to make it convinient to accomplish simple tasks that should originally be done on Gold with a browser. 
+- **Market:** This app can be used by current UCSB undergraduate students only.
+- **Habit:** This app could be used whenever students want to access personal and course information.
+- **Scope:** This app provides iOS users with an alternative for accessing GOLD in a browser. Some core features of GOLD like adding to courses are not contained in the app.
 
 ## Product Spec
 
@@ -28,45 +28,48 @@ Remind students of their pass times and empty spots of desired classes and provi
 
 **Required Must-have Stories**
 
-* User logs in to access registeration data for further actions
-* User sets an alarm to inform the pass time
-* Real-time tracking of empty spots
-* User views the past feedbacks about a class
+* User logs in and logs out
+* User sees basic info
+* User sees registration info
+* User sees schedule
+* User can search for a course
 
 **Optional Nice-to-have Stories**
 
-* Show a list of hot electives based on past data
-* hightlight 8 am classes
+* Redirect user to ratemyprofessor.com when clicking on a professor name
+* Redirect user to a map when clicking on a location
+* Hightlight 8 am classes
 
 ### 2. Screen Archetypes
 
-* Login
-   * User logs in with their UCSB Id and password
-* Home
-   * User can see a welcome message
-* Tracking page 
-   * User can see the courses in track
-* Settings
-   * User can set whether to inform him or her when the pass time comes
-* Course search
-   * Type course number to search a course
-* Course info.
-   * Display the ratings of the professor
-   * Allow the user to keep track of the empty spots
+* Login 
+   * User logs in with their ucsbNetId and password
+* Information Screen
+   * User can see their name and email
+   * User can see their photo
+   * User can see their passtimes
+* Schedule Screen 
+   * Allow users to view their schedules
+   * Redirect users to UCSB map when clicking on course location
+   * Redirect users to ratemyprofessor.com when clicking on professor name
+* Course Search Screen
+   * User can search for a course, find its location, check comments about the professor. 
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* Home
-* Tracking
-* Settings
-* Course search
+* Info
+* Schedule
+* Curriculum
 
 **Flow Navigation** (Screen to Screen)
 
-* Forced Log-in -> Authentification -> Home
-* Course search -> Course info.
+* Forced Log-in -> Authentification -> Info
+* Schedule -> ratemyprofessor.com
+* Schedule -> Google Map
+* Curriculum -> Course Description -> ratemyprofessor.com
+* Curriculum -> Course Description -> Google Map
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
